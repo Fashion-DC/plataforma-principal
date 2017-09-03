@@ -25,7 +25,8 @@
     "amplify-store": "^0.1.0",
     "autoprefixer": "^7.1.1",
     "autosize": "^3.0.20",
-    "babel-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
     "bootstrap": "^3.3.7",
     "braintree": "^2.0.2",
     "bunyan": "^2.0.0",
@@ -71,7 +72,7 @@
     "prop-types": "https://registry.npmjs.org/prop-types/-/prop-types-15.5.8.tgz",
     "query-parse": "^1.0.0",
     "radium": "^0.19.1",
-    "react": "15.4.2",
+    "react": "^15.4.2",
     "react-addons-create-fragment": "15.4.2",
     "react-addons-pure-render-mixin": "15.4.2",
     "react-autosuggest": "^9.0.0",
@@ -80,7 +81,7 @@
     "react-copy-to-clipboard": "https://registry.npmjs.org/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.0.tgz",
     "react-dnd": "^2.3.0",
     "react-dnd-html5-backend": "^2.3.0",
-    "react-dom": "15.4.2",
+    "react-dom": "^15.4.2",
     "react-dropzone": "^3.12.3",
     "react-helmet": "^5.0.1",
     "react-komposer": "^2.0.0",
@@ -150,7 +151,8 @@
   },
   "babel": {
     "plugins": [
-      "lodash", [
+      "lodash",
+      [
         "module-resolver",
         {
           "root": [
